@@ -12,5 +12,8 @@ Android Tutorials which includes.
 8. Splash Screen
 9. Animation 
 10. XML Button Style
+11. Session management
+12. Singleton design pattern
+13. Media Access
 
 
