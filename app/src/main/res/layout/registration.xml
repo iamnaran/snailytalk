@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_snail"
+    android:layout_weight="1"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/reg_fname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/color_white"
+            android:hint=" Name"
+            android:textSize="25sp"
+            android:textColorHint="@color/color_snail"
+            android:singleLine="true"
+            />
+        <!--<EditText-->
+            <!--android:id="@+id/reg_lname"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginLeft="25dp"-->
+            <!--android:layout_marginRight="25dp"-->
+            <!--android:background="@color/color_white"-->
+            <!--android:hint="Last Name"-->
+            <!--android:textSize="25sp"-->
+            <!--android:textColorHint="@color/color_snail"-->
+            <!--android:singleLine="true"-->
+            <!--/>-->
+        <EditText
+            android:id="@+id/reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:layout_marginLeft="25dp"
+            android:drawableLeft="@android:drawable/ic_dialog_email"
+            android:layout_marginRight="25dp"
+            android:background="@color/color_white"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="25sp"
+            android:textColorHint="@color/color_snail"
+            android:singleLine="true"
+            />
+        <EditText
+            android:id="@+id/reg_pass_word"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_white"
+            android:hint="@string/password"
+            android:textColorHint="@color/color_snail"
+            android:textSize="25sp"
+            android:drawableLeft="@android:drawable/ic_secure"
+            />
+        <EditText
+            android:id="@+id/reg_re_pass_word"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_white"
+            android:hint="Re-enter-Password"
+            android:textColorHint="@color/color_snail"
+            android:textSize="25sp"
+            android:drawableLeft="@android:drawable/ic_secure"
+            />
+        <EditText
+            android:id="@+id/reg_phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:background="@color/color_white"
+            android:hint="Phone Number "
+            android:drawableLeft="@android:drawable/ic_menu_call"
+            android:inputType="phone"
+            android:textSize="25sp"
+            android:textColorHint="@color/color_snail"
+            android:singleLine="true"
+            android:maxLength="10"
+            />
+        <EditText
+            android:id="@+id/reg_address"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/color_white"
+            android:hint="Address"
+            android:textSize="25sp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:id="@+id/reg_date"
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:hint="Date of Birth"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@color/color_white"
+                android:textSize="25sp"
+                android:inputType="date"
+
+
+                />
+        <ImageView
+            android:id="@+id/image_date"
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:layout_alignTop="@+id/reg_date"
+            android:layout_alignBottom="@+id/reg_date"
+            android:layout_alignRight="@+id/reg_date"
+
+            android:src="@android:drawable/ic_menu_my_calendar"
+            />
+
+
+    </RelativeLayout>
+
+
+            <!--/>-->
+        <!--<Spinner-->
+            <!--android:id="@+id/spinner1"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:entries="@array/country_arrays"-->
+            <!--android:prompt="@string/country_prompt"-->
+            <!--android:background="@color/color_white"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_marginLeft="25dp"-->
+            <!--android:layout_marginRight="25dp"-->
+
+            <!--/>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_cond"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:id="@+id/terms_Cond"
+            android:textAlignment="center"
+
+            />
+        <Button
+            android:id="@+id/reg_create_acc_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:text="@string/create_acc"
+            android:textSize="26sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color_white"
+            android:background="@drawable/botton_stroke"/>
+
+</LinearLayout>
+
+    </LinearLayout>

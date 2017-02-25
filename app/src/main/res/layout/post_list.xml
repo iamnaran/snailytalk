@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_snail"
+
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/welcome"
+        android:layout_gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:text="C Name"
+            android:textStyle="bold"
+            android:id="@+id/show_name"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="ID"
+            android:textStyle="italic"
+            android:id="@+id/show_id"
+            />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Duration"
+            android:textStyle="italic"
+            android:id="@+id/show_duration"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Description"
+            android:textStyle="italic"
+            android:id="@+id/show_description"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Syllabus"
+            android:textStyle="italic"
+            android:id="@+id/show_syllabus"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

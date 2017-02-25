@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_snail"
+    >
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/welcome"
+        android:layout_gravity="center"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30dp"
+            android:text="Name"
+            android:textStyle="bold"
+            android:id="@+id/adp_name"
+            android:textColor="@color/color_white"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Address"
+            android:textStyle="italic"
+            android:id="@+id/adp_address"
+            android:textColor="@color/color_white"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="ID"
+            android:textStyle="italic"
+            android:id="@+id/adp_id"
+            android:textColor="@color/color_white"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Email"
+            android:textStyle="italic"
+            android:id="@+id/adp_email"
+            android:textColor="@color/color_white"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:text="Password"
+            android:textStyle="italic"
+            android:id="@+id/adp_password"
+            android:textColor="@color/color_white"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

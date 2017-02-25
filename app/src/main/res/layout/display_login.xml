@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/color_snail"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:id="@+id/act_email_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/act_pass_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+
+            />
+        <TextView
+            android:id="@+id/act_phone_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/act_address_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/act_id_v"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            />
+        
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.talk.snaily">\
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="com.talk.snaily.permission.MAPS_RECEIVE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/header_snail"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+
+        <activity
+            android:name=".CreateAccDis"
+            android:label="Account Display"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".DisplayActivity"
+            android:label="Snail Talk"
+            android:theme="@style/AppTheme">
+
+        </activity>
+
+        <activity
+            android:name=".ForgotPassActivity"
+            android:label="Snail Talk"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".RegistrationActivity"
+            android:label="Snail Talk"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".LoginSucess"
+            android:label="Snail Talk"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".StudentListActivity"
+            android:label="Snail Talk"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".StudentDetailActivity"
+            android:label="Student Details"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ShowStudent.ShowAllActivity"
+            android:label="Show all List"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".ShowStudent.ShowCourse"
+            android:label="Show all List"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".Fragments.FragementActivity"
+            android:theme="@style/AppTheme"
+            android:label="Fragment">
+
+        </activity>
+
+        <activity
+            android:name=".MapActivity.GoogleMapActivity"
+            android:label="Google Maps"
+            android:theme="@style/AppTheme">
+
+            <meta-data
+                android:name="com.google.android.maps.v2.API_KEY"
+                android:value="AIzaSyBVgYKdGFaZfmvSb0rGDlaaTPabWBijsaE">
+            </meta-data>
+
+        </activity>
+
+
+        <activity android:name=".TorchLight.TorchLight"
+            android:label="Torch Light"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity">
+
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".TorchLight.TorchLight">
+            </meta-data>
+        </activity>
+
+        <activity
+            android:name=".AboutUs.AboutUs"
+            android:label="About us"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity" >
+
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".AboutUs.AboutUS">
+            </meta-data>
+        </activity>
+
+        <activity
+            android:name=".Database.MainActivityDatabase"
+            android:label="Database"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity" >
+
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".Database.MainActivityDatabase">
+            </meta-data>
+
+        </activity>
+        <activity
+            android:name=".NewDatabase.FormSpinnerDatepickerExample"
+            android:label="New Database"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".MainActivity" >
+
+            <meta-data
+                android:name="android:support.PARENT_ACTIVITY"
+                android:value=".NewDatabase.FormSpinnerDatepickerExample">
+            </meta-data>
+
+        </activity>
+
+        <activity
+            android:name=".NewDatabase.InquiryListView"
+            android:label="Show Database"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".NewDatabase.FormSpinnerDatepickerExample" >
+
+        </activity>
+
+        <activity
+            android:name=".NewDatabase.DisplayDetailDatabase"
+            android:label="Detail Database"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".NewDatabase.InquiryListView" >
+        </activity>
+
+
+    </application>
+
+</manifest>

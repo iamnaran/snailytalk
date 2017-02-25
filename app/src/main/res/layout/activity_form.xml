@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/color_snail"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="30dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course"
+        android:textColor="@color/color_white"
+        android:textSize="30dp"/>
+    <Spinner
+        android:id="@+id/form_course_spinner"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/color_fb"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date: "
+            android:textColor="@color/color_white"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/form_course_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@color/color_white"
+            android:padding="10dp"
+            android:focusableInTouchMode="false"
+            android:hint="DATE"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time: "
+            android:textColor="@color/color_white"
+            android:textSize="30dp"/>
+        <EditText
+            android:id="@+id/form_course_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="TIME"
+            android:layout_marginLeft="10dp"
+            android:background="@color/color_white"
+            android:padding="10dp"
+            android:focusableInTouchMode="false"
+            android:textSize="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Question: "
+            android:textColor="@color/color_white"
+            android:textSize="30dp"
+            android:layout_gravity="center"/>
+        <EditText
+            android:id="@+id/form_course_question"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Queries"
+            android:background="@color/color_white"
+            android:padding="10dp"
+            android:layout_marginLeft="10dp"
+            android:scrollbars="vertical"
+            android:maxLength="60"
+            android:textSize="20dp"
+            android:minLines="3"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/form_course_button"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/round_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"/>
+    <Button
+        android:id="@+id/form_course_button_show"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_button"
+        android:layout_height="wrap_content"
+        android:text="SHOW"/>
+
+
+
+</LinearLayout>

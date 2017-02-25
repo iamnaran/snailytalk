@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@color/color_snail"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.55"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/color_white"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:id="@+id/eName"
+            android:maxLength="8"
+            android:hint="First Name"
+            android:background="@color/color_white"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surname"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color_white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/eSurname"
+            android:layout_marginTop="5dp"
+            android:background="@color/color_white"
+            android:maxLength="8"
+            android:hint="Your Surname"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marks"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color_white"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+
+            android:id="@+id/marks" />
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/color_white"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="Obtained Marks"
+            android:id="@+id/eMarks" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color_white"
+            android:textSize="20sp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tID" />
+
+        <EditText
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:layout_marginTop="5dp"
+            android:background="@color/color_white"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal"
+            android:inputType="number"
+            android:maxLength="3"
+            android:id="@+id/eID"
+            android:hint="To Update and Delete Data"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.33"
+        android:orientation="vertical"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/button_add"
+            android:padding="10dp"
+            android:text="Add Data"
+            android:textSize="20dp"
+            android:textColor="@color/color_white"
+            android:textAllCaps="false"
+            android:background="@drawable/botton_two"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_view"
+            android:text="View Database"
+            android:textSize="20dp"
+            android:textColor="@color/color_white"
+            android:textAllCaps="false"
+            android:background="@drawable/botton_two"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_delete"
+            android:text="Delete Data"
+            android:textSize="20dp"
+            android:textColor="@color/color_white"
+            android:textAllCaps="false"
+            android:background="@drawable/botton_two"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.12"
+        android:gravity="center"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_update"
+            android:text="Update database"
+            android:textSize="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_gravity="center"
+            android:textColor="@color/color_white"
+            android:textAllCaps="false"
+            android:background="@drawable/botton_two"
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@+id/button_update"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button_count"
+            android:text="Count Query"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="@color/color_white"
+            android:textAllCaps="false"
+            android:background="@drawable/botton_two"
+            />
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

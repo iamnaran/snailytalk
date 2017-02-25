@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#c4c6d0</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color_white">#ffffff</color>
+    <color name="color_snail">#c631a0</color>
+    <color name= "color_red">#e71b08</color>
+
+    <color name= "color_what">#34af23</color>
+
+
+    <color name= "color_fb">#3b5998</color>
+    <color name= "color_googlePlus">#3cba54</color>
+
+
+</resources>

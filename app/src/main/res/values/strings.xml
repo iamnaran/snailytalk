@@ -1,0 +1,41 @@
+<resources>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Snail Talk</string>
+    <string name="log_in">LogIn</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="snail_name">Your Snail Name</string>
+    <string name="app_created">Created by: NaRan nrn.panthi@gmail.com </string>
+    <string name="password">  Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_acc">Create Account</string>
+    <string name="welcome">Welcome to Snail Talk</string>
+    <string name="send"> Send Email / SMS </string>
+    <string name="country_prompt">Choose a country</string>
+    <string name="terms_cond">By clicking Create Account you agree with snail talk terms and conditions.</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Nepal</item>
+        <item>China</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+
+    <string name="about_us">   Snail Talk is a messenger that is as fast and easy as texting only for FREE!
+Snail messenger uses your phone’s internet connection (whether Wi-Fi or your data plan) to let you send text messages, share photos and videos, add stickers, or make voice calls and video chats - all for FREE!
+•GROUP CHATS: Have group chats with up to 200 participants. You can also ‘like’ each other’s messages.
+•DELETE A MESSAGE: Delete a message even after it was sent!
+•HIDDEN CHATS – Hide specific chats from your messaging screen.</string>
+
+
+
+
+</resources>
