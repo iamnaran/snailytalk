@@ -1,8 +1,8 @@
 Snail Talk
 
-Android Tutorials which includes.
+This applicaiton includes.
 
-1. Work in Intent Activity
+1. Working with Intent Activity
 2. Fragments
 3. Map Activity
 4. Flash Light 
